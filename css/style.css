@@ -4,7 +4,8 @@ body {
   font-family: "Playfair Display", serif;
 }
 .top-container {
-  background: url(../images/burger-bg.jpg);
+  background: url(../images/Optimized-burger-bg.jpg);
+  /* background: url(../images/burger-bg.jpg); */
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
