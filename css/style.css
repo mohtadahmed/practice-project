@@ -1,130 +1,125 @@
-body{
-    margin: 0;
-    padding: 0;
-    font-family: 'Playfair Display', serif;
-    
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Playfair Display", serif;
 }
-.top-container{
-    background: url(../images/burger-bg.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-size: cover;
-    height: 100vh;
+.top-container {
+  background: url(../images/burger-bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  height: 100vh;
 }
-.top-container h1{
-    position: absolute;
-    bottom: 0;
-    left: 2%;
-    font-size: 40px;
-    color: white;
-}
-
-
-.menu-section{
-    display: flex;
-    margin: 100px auto;
-    padding: 50px 120px;
+.top-container h1 {
+  position: absolute;
+  bottom: 0;
+  left: 2%;
+  font-size: 40px;
+  color: white;
 }
 
-.menu-img{
-    width: 50%;
-    text-align: center;
-}
-.menu-img img{
-    height: 80%;
-    width: 80%;
-    
-}
-.menu-detail{
-    width: 50%;
-}
-.menu-detail h1{
-    font-size: 40px;
-    letter-spacing: 6px;
-    text-align: center;
-    font-family: 'Playfair Display', Times, serif;
-    font-weight: lighter;
-}
-.menu-detail h5{
-    font-size: 18px;
-    letter-spacing: 5px;
-    text-align: center;
-}
-.menu-detail p{
-    letter-spacing: 1.5px;
-    text-align: justify;
-    font-size: 17px;
-    line-height: 23px;
-}
-#season{
-    background-color: lightgray;
-    padding: 0px 4px;
-}
-#para-light{
-    opacity: .6;
+.menu-section {
+  display: flex;
+  margin: 100px auto;
+  padding: 50px 120px;
 }
 
-
-.our-menu{
-    display: flex;
-    margin: 150px auto;
+.menu-img {
+  width: 50%;
+  text-align: center;
+}
+.menu-img img {
+  /* height: 80%;
+    width: 80%; */
+  height: 650px;
+  width: 450px;
+}
+.menu-detail {
+  width: 50%;
+}
+.menu-detail h1 {
+  font-size: 40px;
+  letter-spacing: 6px;
+  text-align: center;
+  font-family: "Playfair Display", Times, serif;
+  font-weight: lighter;
+}
+.menu-detail h5 {
+  font-size: 18px;
+  letter-spacing: 5px;
+  text-align: center;
+}
+.menu-detail p {
+  letter-spacing: 1.5px;
+  text-align: justify;
+  font-size: 17px;
+  line-height: 23px;
+}
+#season {
+  background-color: lightgray;
+  padding: 0px 4px;
+}
+#para-light {
+  opacity: 0.6;
 }
 
-
-.menu-container{
-    margin: 20px 250px;
+.our-menu {
+  display: flex;
+  margin: 150px auto;
 }
 
-.menu-list, .item-img{
-    width: 50%;
+.menu-container {
+  margin: 20px 250px;
 }
 
-.item-img img{
-    margin-top: 70px;
-    height: 80%;
-    width: 80%;
+.menu-list,
+.item-img {
+  width: 50%;
 }
 
-.menu-list{
-    padding-left: 10%;
+.item-img img {
+  margin-top: 70px;
+  height: 80%;
+  width: 80%;
 }
 
-.menu{
-    letter-spacing: 4px;
-    word-spacing: 5px;
-    font-size: 25px;
+.menu-list {
+  padding-left: 10%;
 }
 
-
-.item-list{
-    margin: 60px auto;
-}
-.item-list h4{
-    letter-spacing: 5px;
-    font-size: 18px;
-}
-.item-list p{
-    opacity: .5;
+.menu {
+  letter-spacing: 4px;
+  word-spacing: 5px;
+  font-size: 25px;
 }
 
-
-.contact-section{
-    margin: 20px 250px;
+.item-list {
+  margin: 60px auto;
 }
-.contact-container h1{
-   font-size: 35px;
-   letter-spacing: 5px;
+.item-list h4 {
+  letter-spacing: 5px;
+  font-size: 18px;
 }
-.contact-container h3{
-    color: rgb(106, 197, 233);
+.item-list p {
+  opacity: 0.5;
 }
 
+.contact-section {
+  margin: 20px 250px;
+}
+.contact-container h1 {
+  font-size: 35px;
+  letter-spacing: 5px;
+}
+.contact-container h3 {
+  color: rgb(106, 197, 233);
+}
 
-footer{
-    margin-top: 50px;
-    text-align: center;
-    background-color: #F1F1F1;
-    padding: 10px 20px;
-    font-size: 13px;
+footer {
+  margin-top: 50px;
+  text-align: center;
+  background-color: #f1f1f1;
+  padding: 10px 20px;
+  font-size: 13px;
 }
